@@ -34,7 +34,7 @@ var headers = {
   'mode': 'no-cors'
 }
 
-async function fetchCall(){
+!async function fetchCall(){
   let maxOffset = 9000
   for( i = 0; i < maxOffset; i+=limit){
     await fetch(uri + i, headers)
@@ -52,11 +52,10 @@ async function fetchCall(){
         console.error('in catch: ', error)
      })
   }
-}
+}()
 
 function showProgressBar( maxOffset, i){
   bar1.start(maxOffset, 0, {speed: 'N/A' })
   bar1.increment()
           bar1.update(i)
 }
-fetchCall()
