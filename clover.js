@@ -46,16 +46,15 @@ var headers = {
         }) 
       })
       .finally( () => {
-        bar1.stop()
       })
       .catch( error => {
         console.error('in catch: ', error)
      })
   }
-}()
+}().then(bar1.stop())
 
 function showProgressBar( maxOffset, i){
-  bar1.start(maxOffset, 0, {speed: 'N/A' })
-  bar1.increment()
-          bar1.update(i)
+    bar1.start(maxOffset, 0, {speed: 'N/A' })
+    bar1.increment()
+    bar1.update(i)
 }
