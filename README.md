@@ -1,17 +1,17 @@
 ## Get Started
 #### dependencies
-- node and npm
+- [Node and npm](https://nodejs.org/en/)
 
 #### setup the project
-1. open terminal to directory location
+1. open terminal to desired directory location, clone repo and `cd` to `clover-inventory`
 1. type `npm install` to resolve all project dependencies
 
-### **create directory /data**
-1. in root of the project, create diretory named `data`
+#### **create directory /data**
+1. while in the root of the project, type `mkdir data` to create `/data`
 
 #### create local_vars
-1. create a new file named `local_vars.js` in the root directory of the project 
-1. declare and initialize variables with the following names:
+1. while in the root of the project type `touch local_vars.js`
+1. within this file declare and initialize variables with the following names:
     - `exports.accessToken = <YOUR_ACCESS_TOKEN>`
     - `exports.merchantId = <YOUR_MERCHANT_ID>`
 1. in the `clover.js` file, import the file to access the variables 
