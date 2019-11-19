@@ -3,7 +3,7 @@
 - [Node and npm](https://nodejs.org/en/)
 
 #### setup the project
-1. open terminal to desired directory location and `cd` to `clover-inventory`
+1. open terminal to desired directory location, clone repo and `cd` to `clover-inventory`
 1. type `npm install` to resolve all project dependencies
 
 #### **create directory /data**
