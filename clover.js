@@ -45,8 +45,6 @@ var headers = {
           showProgressBar(maxOffset, i)
         }) 
       })
-      .finally( () => {
-      })
       .catch( error => {
         console.error('in catch: ', error)
      })
