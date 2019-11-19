@@ -11,11 +11,9 @@
 
 #### create local_vars
 1. while in the root of the project type `touch local_vars.js`
-1. within this file declare and initialize variables with the following names:
+1. within the `local_vars.js` copy and paste the following *insert your credentials*:
     - `exports.accessToken = <YOUR_ACCESS_TOKEN>`
     - `exports.merchantId = <YOUR_MERCHANT_ID>`
-1. in the `clover.js` file, import the file to access the variables 
-     - `const keys = require('local_vars')`
 1. in the terminal, type `npm run-script clover`
 
 #### CSV file will be generated in the `data` folder at `./data/*.csv`
