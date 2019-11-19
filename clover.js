@@ -1,7 +1,7 @@
 const fetch = require('node-fetch')
 const cliProgress = require('cli-progress')
 const createCsvWriter = require('csv-writer').createObjectCsvWriter
-const keys = require('./local_info')
+const keys = require('./local_vars')
 
 let date = new Date()
 const csvWriter = createCsvWriter({
