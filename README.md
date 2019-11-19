@@ -10,7 +10,7 @@
 1. in root of the project, create directory named `data`
 
 #### create local_vars
-1. create a new file named `local_vars.js` in the root directory of the project 
+1. in the root of the project create a new file named `local_vars.js` in the root directory of the project 
 1. declare and initialize variables with the following names:
     - `exports.accessToken = <YOUR_ACCESS_TOKEN>`
     - `exports.merchantId = <YOUR_MERCHANT_ID>`
