@@ -9,3 +9,10 @@
 
 > CSV file will be generated in the `data` folder at `./data/*.csv`
 
+#### create local_info file
+1. create a new file named `local_info.js` in the root directory of the project 
+1. declare and initialize variables with the following names:
+    - `exports.accessToken`
+    - `exports.merchantId`
+1. in the `clover.js` file, import the file to access the variables 
+     - `const keys = require('local_info')`
