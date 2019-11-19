@@ -6,8 +6,8 @@
 1. open terminal to directory location
 1. type `npm install` to resolve all project dependencies
 
-### **create directory /data**
-1. in root of the project, create diretory named `data`
+#### **create directory /data**
+1. in root of the project, create directory named `data`
 
 #### create local_vars
 1. create a new file named `local_vars.js` in the root directory of the project 
