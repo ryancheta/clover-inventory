@@ -1,6 +1,6 @@
 ## Get Started
 #### dependencies
-- [Node and npm](https://nodejs.org/en/)
+- [![Node and npm](https://img.shields.io/badge/dependencies-brightgreen.svg?style=flat)](https://nodejs.org/en/)
 
 #### setup the project
 1. open terminal to desired directory location, `git clone https://github.com/ryancheta/clover-inventory && cd clover-inventory`
